@@ -3,7 +3,7 @@ import './banner.css'
 
 const Banner = () => {
     return (
-        <div>
+        <div className='lg:mb-44'>
             <img className='lg:relative' src="https://www.pc-lux.com/images/banner/crop-1675659777597.jpg" alt="" />
             <div className=' flex justify-center p-5 search-field rounded-lg'>
                 <div className="form-control">

@@ -87,7 +87,6 @@ const Navber = () => {
                         )}
                     </div>
                     <button className="border-black border-2 px-5 py-1 rounded-lg text-base font-bold ">Login</button>
-                    <button className="border-black border-2 px-5 py-1 rounded-lg text-base font-bold ">Language</button>
 
                 </div>
             </div>
