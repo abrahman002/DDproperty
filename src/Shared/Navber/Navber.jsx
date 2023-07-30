@@ -41,6 +41,8 @@ const Navber = () => {
     };
 
 
+
+
     return (
         <div>
             <div className="navbar bg-base-100">
@@ -66,12 +68,12 @@ const Navber = () => {
                     <a className="lg:w-[165px] w-[124px]  lg:mr-0 mr-32 "><img src="https://www.agentofferings.ddproperty.com/wp-content/uploads/2022/11/DDProperty_Logo_Full_Colour_Horizontal_W_Endorsement.png" alt="" /></a>
                 </div>
                 <div className="navbar hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 ">
+                    <ul className="menu menu-horizontal px-1 z-10">
                         {menu}
                     </ul>
                 </div>
                 <div className="navbar-end hidden lg:flex gap-5 ">
-                    <div className="relative border-none">
+                    <div className="relative border-none z-10">
                         <button
                             className="border-black border-2 px-2 py-2 rounded-lg text-base font-bold"
                             onClick={toggleDropdown}
@@ -79,13 +81,13 @@ const Navber = () => {
                             <TfiMenuAlt></TfiMenuAlt>
                         </button>
                         {isDropdownOpen && (
-                            <div className="absolute top-10 right-0 bg-white border border-white rounded-lg px-4 py-2 ">
-                               <Link className='flex items-center gap-2 font-bold text-gray-600 '><GiSelfLove></GiSelfLove>ShortList</Link>
+                            <div className="absolute top-10 right-0 bg-white border border-white rounded-lg px-4 py-2 shadow-xl">
+                                <Link className='flex items-center gap-2 font-bold text-gray-600 '><GiSelfLove></GiSelfLove>ShortList</Link>
                             </div>
                         )}
                     </div>
                     <button className="border-black border-2 px-5 py-1 rounded-lg text-base font-bold ">Login</button>
-                    <button className="border-black border-2 px-5 py-1 rounded-lg text-base font-bold ">Login</button>
+                    <button className="border-black border-2 px-5 py-1 rounded-lg text-base font-bold ">Language</button>
 
                 </div>
             </div>
