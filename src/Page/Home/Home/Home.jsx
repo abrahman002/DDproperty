@@ -6,6 +6,7 @@ import Videos from '../Videos/Videos';
 import Handpicked from '../Handpicked/Handpicked';
 import Condos from '../Condos/Condos';
 import Curated from '../Curated/Curated';
+import AskGuru from '../AskGuru/AskGuru';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Handpicked></Handpicked>
             <Condos></Condos>
             <Curated></Curated>
+            <AskGuru></AskGuru>
         </div>
     );
 };
