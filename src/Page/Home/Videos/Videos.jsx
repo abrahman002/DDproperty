@@ -1,16 +1,18 @@
 import React from 'react';
-import './project.css'
 import { Link } from 'react-router-dom';
 import { AiOutlineRight } from "react-icons/ai";
 
 
-const LatestProject = () => {
+const Videos = () => {
     return (
-        <div className='mt-10 project-body'>
+        <div className='mt-10 '>
             <div className='lg:px-24 px-7'>
                 <div className='lg:py-14 '>
                     <div className='flex  items-center justify-between mb-5'>
-                        <h1 className='text-2xl font-semibold lg:mt-0 mt-5'>latest project</h1>
+                        <div className='lg:flex items-center gap-2'>
+                            <h1 className='text-2xl font-semibold lg:mt-0 mt-5'>Videos & Virtual Tours</h1>
+                            <p className='text-xs bg-red-500 lg:py-1 lg:px-2 w-1/6 lg:w-10 text-center py-1 rounded-lg'>New</p>
+                        </div>
                         <Link className='lg:flex items-center gap-1 hidden text-red-500 font-medium'>more details <AiOutlineRight className='text-xs'></AiOutlineRight></Link>
                     </div>
                     <div className='grid lg:grid-cols-4 grid-cols-2 gap-4'>
@@ -59,4 +61,4 @@ const LatestProject = () => {
     );
 };
 
-export default LatestProject;
+export default Videos;
