@@ -4,6 +4,7 @@ import HomeBegin from '../HomeBegin/HomeBegin';
 import LatestProject from '../LatestProject/LatestProject';
 import Videos from '../Videos/Videos';
 import Handpicked from '../Handpicked/Handpicked';
+import Condos from '../Condos/Condos';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <LatestProject></LatestProject>
             <Videos></Videos>
             <Handpicked></Handpicked>
+            <Condos></Condos>
         </div>
     );
 };

@@ -7,7 +7,7 @@ const Handpicked = () => {
     return (
         <div className='mt-10 project-body'>
             <div className='lg:px-24 px-7'>
-                <div className='lg:py-14 '> 
+                <div className='lg:py-14  pb-10'> 
                     {/* Section title */}
                     <h1 className='text-2xl font-semibold lg:mt-0 mt-5 mb-5'>Handpicked For You</h1>
                        {/* Card */}
