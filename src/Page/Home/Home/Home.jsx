@@ -7,6 +7,7 @@ import Handpicked from '../Handpicked/Handpicked';
 import Condos from '../Condos/Condos';
 import Curated from '../Curated/Curated';
 import AskGuru from '../AskGuru/AskGuru';
+import MoreDetails from '../MoreDetails/MoreDetails';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <Condos></Condos>
             <Curated></Curated>
             <AskGuru></AskGuru>
+            <MoreDetails></MoreDetails>
         </div>
     );
 };
